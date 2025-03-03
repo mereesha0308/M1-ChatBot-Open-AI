@@ -117,8 +117,8 @@ if st.button("Submit"):
 
         python_code = query_groq_llama(groq_prompt)
 
-        st.write("Generated Python Code:")
-        st.code(python_code)
+        #st.write("Generated Python Code:")
+        #st.code(python_code)
 
         if python_code:
             try:
